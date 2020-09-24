@@ -1,0 +1,3 @@
+The sprites are from Kenney.nl and are shared under the Creative Commons CC0-license (you can use them without giving any credit if you don't want to).
+
+The file VectorMath.cs is made by Emil Forslund and is also shared under CC0.
