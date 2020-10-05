@@ -1,8 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using SFML.System;
 using SFML.Graphics;
 using SFML.Window;
@@ -23,5 +21,11 @@ namespace Asteroids
         {
 
         }
+        public virtual void CollideWith(Scene scene, Entity other)
+        {
+
+        }
+        public virtual Vector2f Position { get; set; }
+        public virtual float Radius { get; }
     }
 }
